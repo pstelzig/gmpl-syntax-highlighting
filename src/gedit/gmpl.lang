@@ -178,9 +178,7 @@
     </context>
 
     <context id="constraints" style-ref="constraint">
-      <keyword>s.t.</keyword>
-      <keyword>subject</keyword>
-      <keyword>to</keyword>
+      <match>(\s?(s\.t\.\s)|(\s?subject\sto\s))</match>
     </context>
 
     <context id="objectives" style-ref="objective">

@@ -58,15 +58,7 @@
 
     <!--from c.lang by Marco Barisione, Emanuele Aina -->
     <context id="printf" style-ref="printf" extend-parent="false">
-      <match extended="true">
-        \%\%|\%
-        (?:[1-9][0-9]*\$)?      # argument
-        [#0\-\ \+\'I]*          # flags
-        (?:[1-9][0-9]*|\*)?     # width
-        (?:\.\-?(?:[0-9]+|\*))? # precision
-        (?:hh|ll|[hlLqjzt])?    # length modifier
-        [diouxXeEfFgGaAcsCSpnm] # conversion specifier
-      </match>
+      <keyword>printf</keyword>
     </context>
 
     <!--from c.lang by Marco Barisione, Emanuele Aina -->

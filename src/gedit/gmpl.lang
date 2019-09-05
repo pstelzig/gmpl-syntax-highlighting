@@ -27,6 +27,7 @@
     <style id="display"           name="Display statement"     map-to="def:keyword"/>
     <style id="for"               name="For statement"         map-to="def:keyword"/>
     <style id="table"             name="Table statement"       map-to="def:keyword"/>
+    <style id="model-data"        name="Model data"            map-to="def:keyword"/>
     <style id="suffix"            name="Suffixes"              map-to="def:operator"/>
     <style id="comment"           name="Comment"               map-to="def:comment"/>
     <style id="type"              name="Data Type"             map-to="def:type"/>
@@ -207,6 +208,11 @@
       <keyword>table</keyword>
     </context>
 
+    <context id="modeldata" style-ref="model-data">
+      <keyword>data</keyword>
+      <keyword>end</keyword>
+    </context>
+
     <!--Main context-->
     <context id="gmpl" class="no-spell-check">
       <include>
@@ -231,6 +237,7 @@
         <context ref="displays"/>
         <context ref="fors"/>
         <context ref="tables"/>
+        <context ref="modeldata"/>
       </include>
     </context>
   </definitions>

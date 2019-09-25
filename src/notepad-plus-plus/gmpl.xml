@@ -1,6 +1,14 @@
 <!--
- Author: Dr. Philipp Emanuel Stelzig
- Copyright (C) 2019 Dr. Philipp Emanuel Stelzig. ALL RIGHTS RESERVED. 
+Copyright (c) Dr. Philipp Emanuel Stelzig, 2019. ALL RIGHTS RESERVED. <software@philippstelzig.de>
+
+This file is part of the project "GMPL Syntax Highlighting"
+as it is available at https://gitlab.com/pstelzig/gmpl-syntax-highlighting. 
+
+"GMPL Syntax Highlighting" as a whole is licensed under the GPL Public License
+version 2. 
+
+GNU Public License version 2 is obtained from: 
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 -->
 <NotepadPlus>
     <UserLang name="GMPL" ext="" udlVersion="2.1">

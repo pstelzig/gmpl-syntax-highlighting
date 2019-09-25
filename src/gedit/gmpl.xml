@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Author: Dr. Philipp Emanuel Stelzig
+Copyright (c) Dr. Philipp Emanuel Stelzig, 2019. ALL RIGHTS RESERVED. <software@philippstelzig.de>
+
+This file is part of the project "GMPL Syntax Highlighting"
+as it is available at https://gitlab.com/pstelzig/gmpl-syntax-highlighting. 
+
+"GMPL Syntax Highlighting" as a whole is licensed under the GPL Public License
+version 2. 
+
+GNU Public License version 2 is obtained from: 
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
 -->
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info" >
   <mime-type type="text/x-gmpl">
